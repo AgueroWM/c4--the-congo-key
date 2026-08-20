@@ -1,0 +1,769 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "state": {
+        "url": "http://127.0.0.1:3000/",
+        "path": "/",
+        "title": "Congo Key | Bâtir l'Ambition",
+        "h1": [
+          "BÂTIR L'AMBITION SÉCURISER L'AVENIR"
+        ],
+        "h2": [
+          "L'Excellence Locale & Éthique.",
+          "L'Expertise 360°",
+          "Showroom Réel",
+          "Le Futur Hub de l'Afrique Centrale.",
+          "Prêt à Bâtir votre Projet ?"
+        ],
+        "textSample": "CONGOKEY FACILITATEUR D'IMPLANTATION EXPERTISE PROJETS DESTINATION FR / EN ESPACE CLIENT INVESTIR BÂTIR L'AMBITION SÉCURISER L'AVENIR 100% Congolais. 100% Conforme. Votre partenaire BTP et Logistique aux standards internationaux. DÉMARRER VOTRE PROJET VOIR LE SHOWROOM LA FORCE D'UN RÉSEAU MONDIAL L'Excellence Locale & Éthique. C4 incarne la nouvelle ère de l'entreprenariat congolais. En tant que société 100% locale, nous alignons expertise terrain et rigueur internationale. Éthique & Transparence Une culture d'entreprise axée sur l'intégrité et la transparence dans la gestion de nos projets. 100% Contenu Local Société de droit congolais. Valorisation des talents locaux et transfert de compétences. Rigueur Juridique Engagement vers le respect des normes juridiques et environnementales applicables. 0% CAPITAL CONGOLAIS COMPLIANCE VALIDÉE Partenaire Stratégique Pour les multinationales L'Ex",
+        "textLength": 3093,
+        "forms": 1,
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "select",
+            "type": "select-one",
+            "placeholder": "",
+            "required": false,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "textarea",
+            "type": "textarea",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "EXPERTISE",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "PROJETS",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "DESTINATION",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "INVESTIR",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "",
+            "disabled": false,
+            "visible": false
+          },
+          {
+            "text": "DÉMARRER VOTRE PROJET",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "VOIR LE SHOWROOM",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "DÉCOUVRIR LA DESTINATION",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "ENVOYER LA DEMANDE",
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "links": [
+          {
+            "text": "ESPACE CLIENT",
+            "href": "http://127.0.0.1:3000/portal",
+            "visible": true
+          },
+          {
+            "text": "MENTIONS LÉGALES",
+            "href": "http://127.0.0.1:3000/mentions-legales",
+            "visible": true
+          },
+          {
+            "text": "CONFIDENTIALITÉ",
+            "href": "http://127.0.0.1:3000/confidentialite",
+            "visible": true
+          }
+        ],
+        "brokenImages": [
+          {
+            "src": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop",
+            "alt": "Visuel de démonstration après travaux"
+          },
+          {
+            "src": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop",
+            "alt": "Business District"
+          }
+        ],
+        "scrollHeight": 6579,
+        "clientHeight": 1000
+      },
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+        }
+      ]
+    },
+    {
+      "route": "/portal",
+      "state": {
+        "url": "http://127.0.0.1:3000/portal",
+        "path": "/portal",
+        "title": "Congo Key | Bâtir l'Ambition",
+        "h1": [
+          "Espace Client"
+        ],
+        "h2": [],
+        "textSample": "Espace Client Accédez au suivi de votre chantier en temps réel. Identifiant Projet Mot de passe Accéder à mon espace Retour au site principal",
+        "textLength": 141,
+        "forms": 1,
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "Ex: PRJ-2026-089",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "password",
+            "placeholder": "Mot de passe",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Accéder à mon espace",
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "links": [
+          {
+            "text": "Retour au site principal",
+            "href": "http://127.0.0.1:3000/",
+            "visible": true
+          }
+        ],
+        "brokenImages": [],
+        "scrollHeight": 1000,
+        "clientHeight": 1000
+      },
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "state": {
+        "url": "http://127.0.0.1:3000/admin",
+        "path": "/admin",
+        "title": "Congo Key | Bâtir l'Ambition",
+        "h1": [
+          "Admin C4"
+        ],
+        "h2": [],
+        "textSample": "Admin C4 Connexion avec un utilisateur Supabase Auth. Connexion Creer le premier compte admin",
+        "textLength": 93,
+        "forms": 1,
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "email",
+            "placeholder": "Email admin Supabase",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "password",
+            "placeholder": "Mot de passe",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Connexion",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "Creer le premier compte admin",
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "links": [],
+        "brokenImages": [],
+        "scrollHeight": 1000,
+        "clientHeight": 1000
+      },
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/mentions-legales",
+      "state": {
+        "url": "http://127.0.0.1:3000/mentions-legales",
+        "path": "/mentions-legales",
+        "title": "Congo Key | Bâtir l'Ambition",
+        "h1": [
+          "Mentions légales"
+        ],
+        "h2": [],
+        "textSample": "RETOUR AU SITE Mentions légales Ce site présente les services de Congo Key dans la construction, la facilitation administrative, la conformité et la logistique au Congo. Les visuels de projets sont des visuels de présentation en attente des photographies définitives. Les informations commerciales, indicateurs et exemples de projets sont fournis à titre de présentation et doivent être confirmés dans le cadre d'un échange contractuel. Éditeur du site : Congo Key. Responsable de publication : direction Congo Key. Les demandes juridiques et commerciales peuvent être adressées via le formulaire de contact du site.",
+        "textLength": 616,
+        "forms": 0,
+        "inputs": [],
+        "buttons": [],
+        "links": [
+          {
+            "text": "RETOUR AU SITE",
+            "href": "http://127.0.0.1:3000/",
+            "visible": true
+          }
+        ],
+        "brokenImages": [],
+        "scrollHeight": 1000,
+        "clientHeight": 1000
+      },
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/confidentialite",
+      "state": {
+        "url": "http://127.0.0.1:3000/confidentialite",
+        "path": "/confidentialite",
+        "title": "Congo Key | Bâtir l'Ambition",
+        "h1": [
+          "Politique de confidentialité"
+        ],
+        "h2": [],
+        "textSample": "RETOUR AU SITE Politique de confidentialité Les informations transmises via les formulaires Congo Key sont utilisées uniquement pour répondre aux demandes commerciales, aux candidatures et au suivi client. Les données peuvent être hébergées par Supabase lorsque l'intégration est activée. Elles ne sont pas revendues à des tiers. Pour toute demande de rectification ou suppression, contactez l'équipe Congo Key par le canal de contact principal. Les cookies strictement nécessaires au fonctionnement du site peuvent être utilisés. Les services externes d'images, de cartes et de polices peuvent traiter des données techniques conformément à leurs propres politiques.",
+        "textLength": 666,
+        "forms": 0,
+        "inputs": [],
+        "buttons": [],
+        "links": [
+          {
+            "text": "RETOUR AU SITE",
+            "href": "http://127.0.0.1:3000/",
+            "visible": true
+          }
+        ],
+        "brokenImages": [],
+        "scrollHeight": 1000,
+        "clientHeight": 1000
+      },
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/careers",
+      "state": {
+        "url": "http://127.0.0.1:3000/",
+        "path": "/",
+        "title": "Congo Key | Bâtir l'Ambition",
+        "h1": [
+          "BÂTIR L'AMBITION SÉCURISER L'AVENIR"
+        ],
+        "h2": [
+          "L'Excellence Locale & Éthique.",
+          "L'Expertise 360°",
+          "Showroom Réel",
+          "Le Futur Hub de l'Afrique Centrale.",
+          "Prêt à Bâtir votre Projet ?"
+        ],
+        "textSample": "CONGOKEY FACILITATEUR D'IMPLANTATION EXPERTISE PROJETS DESTINATION FR / EN ESPACE CLIENT INVESTIR BÂTIR L'AMBITION SÉCURISER L'AVENIR 100% Congolais. 100% Conforme. Votre partenaire BTP et Logistique aux standards internationaux. DÉMARRER VOTRE PROJET VOIR LE SHOWROOM LA FORCE D'UN RÉSEAU MONDIAL L'Excellence Locale & Éthique. C4 incarne la nouvelle ère de l'entreprenariat congolais. En tant que société 100% locale, nous alignons expertise terrain et rigueur internationale. Éthique & Transparence Une culture d'entreprise axée sur l'intégrité et la transparence dans la gestion de nos projets. 100% Contenu Local Société de droit congolais. Valorisation des talents locaux et transfert de compétences. Rigueur Juridique Engagement vers le respect des normes juridiques et environnementales applicables. 0% CAPITAL CONGOLAIS COMPLIANCE VALIDÉE Partenaire Stratégique Pour les multinationales L'Ex",
+        "textLength": 3093,
+        "forms": 1,
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "select",
+            "type": "select-one",
+            "placeholder": "",
+            "required": false,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "textarea",
+            "type": "textarea",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "EXPERTISE",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "PROJETS",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "DESTINATION",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "INVESTIR",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "",
+            "disabled": false,
+            "visible": false
+          },
+          {
+            "text": "DÉMARRER VOTRE PROJET",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "VOIR LE SHOWROOM",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "DÉCOUVRIR LA DESTINATION",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "ENVOYER LA DEMANDE",
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "links": [
+          {
+            "text": "ESPACE CLIENT",
+            "href": "http://127.0.0.1:3000/portal",
+            "visible": true
+          },
+          {
+            "text": "MENTIONS LÉGALES",
+            "href": "http://127.0.0.1:3000/mentions-legales",
+            "visible": true
+          },
+          {
+            "text": "CONFIDENTIALITÉ",
+            "href": "http://127.0.0.1:3000/confidentialite",
+            "visible": true
+          }
+        ],
+        "brokenImages": [
+          {
+            "src": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop",
+            "alt": "Visuel de démonstration après travaux"
+          },
+          {
+            "src": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop",
+            "alt": "Business District"
+          }
+        ],
+        "scrollHeight": 6579,
+        "clientHeight": 1000
+      },
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "state": {
+        "url": "http://127.0.0.1:3000/",
+        "path": "/",
+        "title": "Congo Key | Bâtir l'Ambition",
+        "h1": [
+          "BÂTIR L'AMBITION SÉCURISER L'AVENIR"
+        ],
+        "h2": [
+          "L'Excellence Locale & Éthique.",
+          "L'Expertise 360°",
+          "Showroom Réel",
+          "Le Futur Hub de l'Afrique Centrale.",
+          "Prêt à Bâtir votre Projet ?"
+        ],
+        "textSample": "BÂTIR L'AMBITION SÉCURISER L'AVENIR 100% Congolais. 100% Conforme. Votre partenaire BTP et Logistique aux standards internationaux. DÉMARRER VOTRE PROJET VOIR LE SHOWROOM LA FORCE D'UN RÉSEAU MONDIAL L'Excellence Locale & Éthique. C4 incarne la nouvelle ère de l'entreprenariat congolais. En tant que société 100% locale, nous alignons expertise terrain et rigueur internationale. Éthique & Transparence Une culture d'entreprise axée sur l'intégrité et la transparence dans la gestion de nos projets. 100% Contenu Local Société de droit congolais. Valorisation des talents locaux et transfert de compétences. Rigueur Juridique Engagement vers le respect des normes juridiques et environnementales applicables. 0% CAPITAL CONGOLAIS COMPLIANCE VALIDÉE Partenaire Stratégique Pour les multinationales L'Expertise 360° Le système d'exploitation pour votre implantation au Congo. 1. Facilitation & Admin A",
+        "textLength": 2995,
+        "forms": 1,
+        "inputs": [
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "select",
+            "type": "select-one",
+            "placeholder": "",
+            "required": false,
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "tag": "textarea",
+            "type": "textarea",
+            "placeholder": "",
+            "required": true,
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Expertise",
+            "disabled": false,
+            "visible": false
+          },
+          {
+            "text": "Projets",
+            "disabled": false,
+            "visible": false
+          },
+          {
+            "text": "Destination",
+            "disabled": false,
+            "visible": false
+          },
+          {
+            "text": "Investir",
+            "disabled": false,
+            "visible": false
+          },
+          {
+            "text": "",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "DÉMARRER VOTRE PROJET",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "VOIR LE SHOWROOM",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "DÉCOUVRIR LA DESTINATION",
+            "disabled": false,
+            "visible": true
+          },
+          {
+            "text": "ENVOYER LA DEMANDE",
+            "disabled": false,
+            "visible": true
+          }
+        ],
+        "links": [
+          {
+            "text": "Espace Client",
+            "href": "http://127.0.0.1:3000/portal",
+            "visible": false
+          },
+          {
+            "text": "MENTIONS LÉGALES",
+            "href": "http://127.0.0.1:3000/mentions-legales",
+            "visible": true
+          },
+          {
+            "text": "CONFIDENTIALITÉ",
+            "href": "http://127.0.0.1:3000/confidentialite",
+            "visible": true
+          }
+        ],
+        "brokenImages": [
+          {
+            "src": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop",
+            "alt": "Visuel de démonstration après travaux"
+          },
+          {
+            "src": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop",
+            "alt": "Business District"
+          }
+        ],
+        "scrollHeight": 9133,
+        "clientHeight": 844
+      },
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "name": "home_empty_contact_validation",
+      "result": {
+        "found": true,
+        "valid": false,
+        "invalid": [
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "tag": "textarea",
+            "type": "textarea",
+            "placeholder": "",
+            "required": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "language_switch_to_en",
+      "result": {
+        "found": true,
+        "sample": "CONGOKEY FACILITATEUR D'IMPLANTATION EXPERTISE PROJETS DESTINATION FR / EN ESPACE CLIENT INVESTIR BÂTIR L'AMBITION SÉCURISER L'AVENIR 100% Congolais. 100% Conforme. Votre partenaire BTP et Logistique aux standards internationaux. DÉMARRER VOTRE PROJET VOIR LE SHOWROOM LA FORCE D'UN RÉSEAU MONDIAL L'Excellence Locale & Éthique. C4 incarne la nouvelle ère de l'entreprenariat congolais. En tant que société 100% locale, nous alignons expertise terrain et rigueur internationale. Éthique & Transparence Une culture d'entreprise axée sur l'intégrité et la transparence dans la gestion de nos projets. 1"
+      }
+    },
+    {
+      "name": "mobile_menu_open",
+      "result": {
+        "found": true,
+        "sample": "BÂTIR L'AMBITION SÉCURISER L'AVENIR 100% Congolais. 100% Conforme. Votre partenaire BTP et Logistique aux standards internationaux. DÉMARRER VOTRE PROJET VOIR LE SHOWROOM LA FORCE D'UN RÉSEAU MONDIAL L'Excellence Locale & Éthique. C4 incarne la nouvelle ère de l'entreprenariat congolais. En tant que société 100% locale, nous alignons expertise terrain et rigueur internationale. Éthique & Transparence Une culture d'entreprise axée sur l'intégrité et la transparence dans la gestion de nos projets. 100% Contenu Local Société de droit congolais. Valorisation des talents locaux et transfert de compétences. Rigueur Juridique Engagement vers le respect des normes juridiques et environnementales applicables. 0% CAPITAL CONGOLAIS COMPLIANCE VALIDÉE Partenaire Stratégique Pour les multinationales L'Expertise 360° Le système d'exploitation pour votre implantation au Congo. 1. Facilitation & Admin A"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+    }
+  ]
+}

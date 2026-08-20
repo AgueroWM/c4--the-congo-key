@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Congo Key | Bâtir l'Ambition</title>
+    <meta name="description" content="Congo Key accompagne les investisseurs et industriels au Congo avec des services de construction, facilitation, conformité et logistique." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --color-gold: #D4AF37;
+        --color-deep-blue: #0f172a;
+      }
+      body {
+        font-family: 'Manrope', sans-serif;
+        background-color: var(--color-deep-blue);
+        color: white;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, .font-display {
+        font-family: 'Sora', 'Manrope', sans-serif;
+        letter-spacing: 0;
+      }
+      .glass-panel {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .text-gold {
+        color: var(--color-gold);
+      }
+      .bg-gold {
+        background-color: var(--color-gold);
+      }
+      .gold-gradient {
+        background: linear-gradient(135deg, #FFE5B4 0%, #D4AF37 50%, #AA771C 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-shadow: 0px 0px 30px rgba(212, 175, 55, 0.2);
+      }
+      
+      /* Architectural Outline Text Effect */
+      .text-outline {
+        color: rgba(248, 250, 252, 0.62);
+        -webkit-text-stroke: 0;
+        transition: color 0.3s ease;
+      }
+      .text-outline:hover {
+        color: rgba(212, 175, 55, 0.72);
+      }
+
+
+      /* Noise Overlay */
+      .bg-noise {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: 50;
+        opacity: 0.03;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      }
+
+      /* Architectural Grid Background */
+      .bg-grid {
+        background-size: 50px 50px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+        -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #D4AF37;
+      }
+      
+      /* Utility for text selection color */
+      ::selection {
+        background: #D4AF37;
+        color: #000;
+      }
+      
+      /* Smooth Scroll behavior handled by HTML class but ensuring here */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+</head>
+  <body>
+    <div class="bg-noise"></div>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+{
+  "chrome": "Chrome/148.0.7778.96",
+  "pages": [
+    {
+      "route": "/",
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        },
+        {
+          "type": "log",
+          "level": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "url": "http://127.0.0.1:3000/favicon.ico"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+        }
+      ]
+    },
+    {
+      "route": "/portal",
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/admin",
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/mentions-legales",
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/confidentialite",
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        }
+      ]
+    },
+    {
+      "route": "/careers",
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "newErrors": [
+        {
+          "type": "console",
+          "level": "warning",
+          "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+        },
+        {
+          "type": "network",
+          "errorText": "net::ERR_BLOCKED_BY_ORB",
+          "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "name": "home_empty_contact_validation"
+    },
+    {
+      "name": "language_switch_to_en"
+    },
+    {
+      "name": "mobile_menu_open"
+    }
+  ],
+  "errors": [
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "log",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:3000/favicon.ico"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "type": "network",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "url": "https://images.unsplash.com/photo-1555699899-70335e40882e?q=80&w=2670&auto=format&fit=crop"
+    }
+  ]
+}
