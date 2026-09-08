@@ -272,7 +272,7 @@ export default function Home() {
       id: 1,
       label: "A definir ensemble",
       before: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1600&auto=format&fit=crop", 
-      after: "https://images.unsplash.com/photo-1586528116311-ad8ed7c508b0?q=80&w=1600&auto=format&fit=crop",
+      after: destinationBusinessImage,
       duration: "A definir ensemble",
       surface: "A definir ensemble"
     },
@@ -748,6 +748,7 @@ export default function Home() {
                     beforeImage={project.before}
                     afterImage={project.after}
                     label={project.label}
+                    fallbackImage={destinationBusinessImage}
                   />
                   <div className="flex justify-between items-center mt-6 px-6 md:px-0">
                      <div className="flex gap-8 text-sm">

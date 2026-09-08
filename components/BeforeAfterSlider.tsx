@@ -5,9 +5,10 @@ interface BeforeAfterSliderProps {
   beforeImage: string;
   afterImage: string;
   label?: string;
+  fallbackImage?: string;
 }
 
-export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({ beforeImage, afterImage, label }) => {
+export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({ beforeImage, afterImage, label, fallbackImage }) => {
   const [isResizing, setIsResizing] = useState(false);
   const [width, setWidth] = useState(50);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -47,6 +48,10 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({ beforeImag
           src={afterImage} 
           alt="Visuel de démonstration après travaux" 
           className="w-full h-full object-cover"
+          onError={(event) => {
+            if (!fallbackImage || event.currentTarget.src === fallbackImage) return;
+            event.currentTarget.src = fallbackImage;
+          }}
         />
         <div className="absolute bottom-6 right-6 px-4 py-2 bg-black/60 backdrop-blur text-white text-xs tracking-widest uppercase font-bold border-l-2 border-yellow-500">
           Projection
@@ -64,6 +69,10 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({ beforeImag
             src={beforeImage} 
             alt="Visuel de démonstration avant travaux" 
             className="w-full h-full object-cover grayscale opacity-80"
+            onError={(event) => {
+              if (!fallbackImage || event.currentTarget.src === fallbackImage) return;
+              event.currentTarget.src = fallbackImage;
+            }}
            />
            <div className="absolute inset-0 bg-slate-950/10"></div>
         </div>
